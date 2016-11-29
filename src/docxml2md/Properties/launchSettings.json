@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "docxml2md": {
+      "commandName": "Project",
+      "commandLineArgs": "-i D:\\GitChida\\docxml2md\\xml\\Microsoft.AspNet.SignalR.Core.xml -o D:\\temp"
+    }
+  }
+}
