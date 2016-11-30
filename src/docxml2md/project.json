@@ -1,8 +1,20 @@
 ﻿{
-  "version": "1.0.0-*",
-  "buildOptions": {
-    "emitEntryPoint": true
-  },
+	"version": "1.0.0-*",
+	"description": "Command line tool to convert xml .net documentation in Markdown",
+	"packOptions": {
+		"tags": [
+			"dotnet",
+			"markdown",
+			"docxml2md",
+			"xml2md",
+			"md"
+		]
+	},
+	"authors": [ "Dario Chini" ],
+	"buildOptions": {
+		"emitEntryPoint": true,
+		"outputName": "dotnet-docxml2md"
+	},
 
 	"dependencies": {
 		"Microsoft.Extensions.CommandLineUtils": "1.0.0",
@@ -12,9 +24,11 @@
 		}
 	},
 
-  "frameworks": {
-    "netcoreapp1.0": {
-      "imports": "dnxcore50"
-    }
-  }
+
+	"frameworks": {
+		"netcoreapp1.0": {
+			"imports": "dnxcore50"
+		}
+	}
 }
+
