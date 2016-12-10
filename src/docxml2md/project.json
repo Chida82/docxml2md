@@ -1,7 +1,8 @@
 ﻿{
-	"version": "0.8.0-*",
+	"version": "0.8.1-*",
 	"description": "Command line tool to convert xml .net documentation in Markdown",
 	"packOptions": {
+		"projectUrl": "https://github.com/Chida82/docxml2md",
 		"tags": [
 			"dotnet",
 			"markdown",
